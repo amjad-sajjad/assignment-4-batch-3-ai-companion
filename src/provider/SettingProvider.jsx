@@ -4,7 +4,7 @@ import { SettingContext } from '../context';
 
 const SettingProvider = ({children}) => {
     const [imageSettings, setImageSettings] = useState({
-        model:"flex",
+        model:"flux",
         seed: 0,
         width:1024,
         height:1024,
